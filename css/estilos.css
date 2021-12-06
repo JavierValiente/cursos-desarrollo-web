@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.index { 
+    background-color: #eeeeee;
+    margin: 10px;
+}
+
+/* Navegador */
+
+header {
+    border-bottom: groove;
+    background-color:#fff;
+    position: relative;
+    position: sticky;
+    top: 0px;
+    height: 80px;
+    padding: 1.5px;
+}
+
+.logo {
+    position:absolute;
+    max-width: 30%;
+    bottom: 5px;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-left: 150px;
+    padding: 30px ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.nav ul li a {
+    padding:10px;
+    color: #2B579F;
+    font-size:large;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} 
+
+h1 {
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #2B579F;
+    color:white;
+    font-size:2rem;
+}
+
+h2 {
+    padding: 5px;
+    margin: 15px 15px 15px 50px ;
+    border-radius: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    background-color: #2B579F;
+    color:white;
+    font: size 2rem;;
+    width: 50%;
+}
+
+.logored img{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+}
+
+.container-pie {
+    text-align:right;
+    background-color:silver;
+    color: white;
+    width: 100%;
+}
+
+.container-pie div { 
+    font-size: xx-small;
+    padding: 2px;
+}
+
+.volverainicio {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2B579F;
+    padding: 5px;
+    margin: 5px;
+    color:white;
+    width: 8%;
+    text-align: center;
+    border-radius: 4px;
+
+}
+
+/* Index */
+
+.Publicidad {
+    background-color: #eeeeee;
+    text-align: center;
+    margin:20px;
+    border-radius: 15px }   
+
+.TextoIndex {
+    border: solid 5px;
+    font-size: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    color: #2B579f;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* text-align: center; */
+}
+
+.ImagenIndex img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.ContainerClientes {
+    width: 85vw;
+    margin:auto;
+}
+
+.ContainerClientes .TituloClientes {
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    background-color:#2B579f ;
+    color:white;
+}
+
+.clientes1 { 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clientes2 { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.clientes3 { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Contacto */
+
+.Formulario {
+    padding: 30px 15px 150px 15px;
+    overflow: hidden;
+}
+
+
+.FormularioEncabezado h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 15px 15px 15px 15px;
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 35px;
+    background-color: #2B579F ;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.FomularioCuerpo {
+    width: 60%;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2B579F;
+    color: white;
+
+}
+.FomularioCuerpo h3 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.control {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    width: 100%;
+    border-radius: 4px;
+    margin: 5px;
+    padding: 5px;
+    border: 30px;
+}
+
+.informacion {
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    border: 10px;
+}
+
+.botones {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: white;
+    padding: 5px;
+    margin: 5px;
+    color: #2B579F;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+/* Servicios */
+
+/* main */
+.ContainerServicios {
+    margin: 5px 30px 5px 50px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #eeeeee ;
+    border-radius: 15px;
+    color:#2B579F;
+}
+/* div */
+.Descripcion{
+    padding: 20px;
+    text-align:left;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50%; 
+    height: 50%;
+}
+/* imagenes */
+.imagenes img{
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    width:100%;
+}
+
+/* Nosotros */
+
+.ContainerNosotros {
+    background-color: #eeeeee ;
+    border-radius: 15px;
+    color:#2B579F;
+    display: grid;
+    grid-template-areas: 
+    "NosotrosVision NosotrosHistoria NosotrosMision " 
+    "NosotrosVision NosotrosImagen NosotrosMision "
+    "NosotrosVision NosotrosImagen NosotrosMision " ;
+    grid-template-columns: 300px auto 300px;
+    grid-template-rows: 200px auto auto;
+    justify-content:space-around;
+    margin: 50px;
+
+}
+
+.NosotrosHistoria {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-area:NosotrosHistoria ;
+    text-align: center;
+    align-self: center;
+    padding: 20px;
+}
+
+.NosotrosVision {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-area: NosotrosVision;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.NosotrosMision {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-area: NosotrosMision;
+    text-align: center;
+    padding: 20px;
+}
+
+.NosotrosImagen {
+    grid-area: NosotrosImagen;
+    text-align: center;
+    padding: 20px;
+}
+
+.NosotrosImagen img {
+    border-radius: 10px;
+}
+
+.NosotrosTitulos {
+    padding: 15px;
+    margin: 20px;
+    font-size:xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* #### Medias Querys #### */
+
+
+    @media screen and (max-width: 768px) {
+        .nav ul {
+            display: none;
+        }
+    
+        .nav div {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .containerclientes {
+            display: none;
+        }
+
+        .logored img{
+            position: fixed;
+            right: 5px;
+            bottom: 5px;
+            width: 35px;
+        }
+
+        h1 { 
+            font-size:0,5rem;
+        }
+    }
+
+    @media screen and (max-width: 1024px) {
+
+        .ContainerClientes {
+            display: none;
+        }
+        
+        .logored img{
+            position: fixed;
+            right: 5px;
+            bottom: 5px;
+            width: 35px;
+        }
+
+        h1 { 
+            font-size:1,5rem;
+        }
+    }
