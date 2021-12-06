@@ -27,7 +27,7 @@ header {
     bottom: 5px;
 }
 
-nav ul{
+.nav ul{
     list-style-type: none;
     margin-left: 150px;
     padding: 30px ;
@@ -38,8 +38,6 @@ nav ul{
     align-items: center;
 }
 
-
-
 .nav ul li a {
     padding:10px;
     color: #2B579F;
@@ -47,6 +45,39 @@ nav ul{
     justify-content: space-between;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 } 
+
+.nav ul li {
+    transition: all .5s;
+}
+
+.nav ul li:hover {
+    transform: scale(1.2);
+}
+
+.clasetransformaciones {
+    width:300px;
+    height: 300px;
+    background-color: thistle;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Item {
+    height: 80px;
+    width: 80px;
+    background-color: tomato;
+    color: white;
+    transition: all 1s;
+
+    /* transform: scale(2) */
+}
+
+.Item:hover {
+    transform: scale(2);
+}
 
 h1 {
     padding: 5px;
