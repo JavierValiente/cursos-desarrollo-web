@@ -47,7 +47,7 @@ header {
 } 
 
 .nav ul li {
-    transition: all .5s;
+    transition: all .5s ease;
 }
 
 .nav ul li:hover {
@@ -80,15 +80,40 @@ header {
 }
 
 h1 {
+    width: 70%;
     padding: 5px;
-    margin: 10px;
+    margin:auto;
     border-radius: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
     background-color: #2B579F;
     color:white;
     font-size:2rem;
+    animation-name:Expandir;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
 }
+
+@keyframes Expandir {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+        background-color: silver;
+        color: black;
+    }
+/* 
+    100% {
+        margin: 15px;
+        transform: scale(1.5);
+        background-color: #2B579F; */
+    }
+
+
+
 
 h2 {
     padding: 5px;
