@@ -40,7 +40,7 @@ header {
 
 .nav ul li a {
     padding:10px;
-    color: #2B579F;
+    color: #2B579F; !important
     font-size:large;
     justify-content: space-between;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
