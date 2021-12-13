@@ -4,107 +4,20 @@
     text-decoration: none;
 }
 
+/* ######## SECCION CSS PARA TODOS LOS HTML ######## */
+
 .index { 
-    background-color: #eeeeee;
     margin: 10px;
-}
-
-/* Navegador */
-
-header {
-    border-bottom: groove;
-    background-color:#fff;
-    position: relative;
-    position: sticky;
-    top: 0px;
-    height: 80px;
-    padding: 1.5px;
-}
-
-.logo {
-    position:absolute;
-    max-width: 30%;
-    bottom: 5px;
-}
-
-.navegador ul{
-    list-style-type: none;
-    margin-left: 150px;
-    padding: 30px ;
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap!important;
-    justify-content: flex-end !important;
-    align-items: center !important;
-}
-
-.navegador ul li a {
-    padding:10px;
-    color: #2B579F;
-    font-size:large;
-    justify-content: space-between;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-} 
-
-.navegador ul li {
-    transition: all .5s ease;
 }
 
 .navegador ul li:hover {
     transform: scale(1.2);
 }
 
-.clasetransformaciones {
-    width:300px;
-    height: 300px;
-    background-color: thistle;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.Item {
-    height: 80px;
-    width: 80px;
-    background-color: tomato;
+.TituloSecciones {
+    background-color: #2B579f;
     color: white;
-    transition: all 1s;
-
-    /* transform: scale(2) */
-}
-
-.Item:hover {
-    transform: scale(2);
-}
-
-h1 {
-    width: 50%;
-    padding: 3px;
-    margin:auto;
-    border-radius: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    background-color: #2B579F;
-    color:white;
-    font-size:2rem;
-    animation-name:Expandir;
-    animation-duration: 2s;
-    animation-delay: 1s;
-    animation-timing-function: ease;
-}
-
-h2 {
-    padding: 5px;
-    margin: 15px 15px 15px 50px ;
-    border-radius: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    background-color: #2B579F;
-    color:white;
-    font: size 2rem;;
-    width: 50%;
 }
 
 .logored img{
@@ -119,6 +32,32 @@ h2 {
     animation-iteration-count: infinite;
 }
 
+.inicio {
+    background-color:#eeeeee;
+}
+
+/* ######## SECCION NAVEGADOR ######## */
+
+.navegador {
+    background-color:#fff !important;
+}
+
+/* ######## SECCION INDEX ######## */
+
+.TextoImagenInicio {
+    background-color:#2B579F;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.TextoImagenInicioTexto {
+    padding: 20px !important;
+    font-size: x-large;
+}
+
+/* ###### PIE DE PAGINA ###### */
+
 .container-pie {
     text-align:right;
     background-color:silver;
@@ -132,6 +71,10 @@ h2 {
 }
 
 .volverainicio {
+    margin: 10px;
+}
+
+.volverainicio a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2B579F;
     padding: 5px;
@@ -140,43 +83,26 @@ h2 {
     width: 8%;
     text-align: center;
     border-radius: 4px;
-
 }
 
-/* Index */
+/* ###### SECCION INDEX ###### */
 
-.Publicidad {
-    background-color: #eeeeee;
-    text-align: center;
-    margin:20px;
-    border-radius: 15px }   
-
-.TextoIndex {
-    border: solid 5px;
-    font-size: 20px;
-    padding: 30px;
-    border-radius: 10px;
-    color: #2B579f;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    /* text-align: center; */
+.SeccionClientes {
+    border:solid #2B579f 2px;
+    height: 180px;
+    margin: 20px;
 }
 
-.ImagenIndex img {
-    width: 100%;
-    border-radius: 20px;
+.TituloSeccionClientes {
+    border-radius: 3px;
+    background-color: #2B579f;
+    color: white;
+    margin: 20px;
 }
 
 .ContainerClientes {
     width: 85vw;
     margin:auto;
-}
-
-.ContainerClientes .TituloClientes {
-    margin: 10px;
-    text-align: center;
-    border-radius: 10px;
-    background-color:#2B579f ;
-    color:white;
 }
 
 .clientes1 { 
@@ -198,37 +124,26 @@ h2 {
     align-items: center;
 }
 
-/* Contacto */
+/* ###### SECCION CONTACTO */
 
 .Formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
     padding: 30px 15px 150px 15px;
     overflow: hidden;
 }
 
-
-.FormularioEncabezado h3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: 15px 15px 15px 15px;
-    padding: 15px;
-    border-radius: 15px;
-    font-size: 35px;
-    background-color: #2B579F ;
-    color: white;
-    text-align: center;
-    overflow: hidden;
-}
-
 .FomularioCuerpo {
-    width: 60%;
     padding: 30px;
-    margin: auto;
+    margin: 20px;
     margin-top: 50px;
-    border-radius: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2B579F;
     color: white;
 
 }
+
 .FomularioCuerpo h3 {
     font-size: 35px;
     margin-bottom: 25px;
@@ -265,53 +180,66 @@ h2 {
     font-size: 15px;
 }
 
-/* Servicios */
+/* ###### SECCION SERVICIOS ###### */
 
-/* main */
-.ContainerServicios {
-    margin: 5px 30px 5px 50px;
-    display: flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    background-color: #eeeeee ;
-    border-radius: 15px;
-    color:#2B579F;
+
+.ServiciosCards {
+    padding: 70px 15px 5px 15px;
 }
-/* div */
-.Descripcion{
-    padding: 20px;
-    text-align:left;
-    font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 50%; 
-    height: 50%;
+
+card-img-top {
+    width: 100%;
 }
-/* imagenes */
-.imagenes img{
-    border-radius: 15px;
-    padding: 5px;
+
+.TitulosServicios {
     text-align: center;
-    width:100%;
+    padding: 10px;    
 }
 
-/* Nosotros */
+.TitulosServicios1 {
+    text-align: center;
+    padding: 25px;  
+}
 
-.ContainerNosotros {
-    background-color: #eeeeee ;
-    border-radius: 15px;
-    color:#2B579F;
-    display: grid;
-    grid-template-areas: 
-    "NosotrosVision NosotrosHistoria NosotrosMision " 
-    "NosotrosVision NosotrosImagen NosotrosMision "
-    "NosotrosVision NosotrosImagen NosotrosMision " ;
-    grid-template-columns: 300px auto 300px;
-    grid-template-rows: 200px auto auto;
-    justify-content:space-around;
-    margin: 50px;
+.ImagenServicios {
+    padding: 10px;
+}
 
+.card-body {
+    text-align: center;
+}
+
+
+/* ###### SECCION NOSOTROS ###### */
+
+.NosotrosAcordion {
+    margin: 10px 50px 30px 60px;
+}
+
+.AcordionNombre {
+    background-color: #2B579F;
+    color: white;
+}
+
+.accordion-item {
+    text-align: center;
+}
+
+.listaAcordion {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    color: black;
+}
+
+.NosotrosHistoria {
+    border: solid #2B579F;
+    margin: 150px 50px 20px 60px;
+}
+
+.NosotrosTituloHistoria {
+    padding: 10px;
 }
 
 .NosotrosHistoria {
@@ -322,45 +250,126 @@ h2 {
     padding: 20px;
 }
 
-.NosotrosVision {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    grid-area: NosotrosVision;
-    text-align: center;
+/* ###### SECCION GALERIA  ###### */
+
+.GaleriaContainerFull {
+    padding-top: 100px;
+}
+
+.GaleriaContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
     padding: 20px;
+    grid-gap: 10px;
+}
+
+.GaleriaImagen {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.GaleiaItem:nth-child(1) {
+    grid-column-start: span 3;
+}
+
+.GaleiaItem:nth-child(2) {
+    grid-row-start: span 2;
+    grid-column-start: span 2;
+}
+
+.GaleiaItem:nth-child(6) {
+    grid-column-start: span 2;
+}
+
+.GaleiaItem:nth-child(9) {
+    grid-column-start: span 3;
+}
+
+.GaleiaItem:nth-child(7) {
+    grid-column-start: span 2;
+}
+
+/* ###### SECCION MEDIAS QUERYS ###### */
+
+@media (min-width: 1024px) {
+
+    /* ####MEDIAS GALERIA### */
+
+    .GaleiaItem:nth-child(1) {
+        grid-column-start: span 3;
+        grid-row-start:span 2 ;
+    }
+
+    .GaleiaItem:nth-child(2) {
+        grid-row-start: span 3;
+        grid-column-start: span 2;
+    }
+
+    .GaleiaItem:nth-child(6) {
+        grid-column-start: span 3;
+        grid-row-start: span 2;
+    }
+
+    .GaleiaItem:nth-child(7) {
+        grid-row-start: span 2;
+    }
+
+    .GaleiaItem:nth-child(8) {
+        grid-row-start: span 2;
+    }
+
+    .GaleiaItem:nth-child(9) {
+        grid-row-start: span 2;
+    }
+}
+
+@media (min-width: 1440px) {
+    .GaleiaItem:nth-child(1) {
+        grid-column-start: span 3;
+        grid-row-start:span 3 ;
+    }
+
+    .GaleiaItem:nth-child(2) {
+        grid-row-start: span 4;
+        grid-column-start: span 2;
+    }
+
+    .GaleiaItem:nth-child(3) {
+        grid-row-start: span 2;
+        grid-column-start: span 1;
+    }
+
+    .GaleiaItem:nth-child(4) {
+        grid-row-start: span 2;
+        grid-column-start: span 1;
+    }
+
+    .GaleiaItem:nth-child(5) {
+        grid-row-start: span 3;
+        grid-column-start: span 3;
+    }
+
+    .GaleiaItem:nth-child(6) {
+        grid-row-start: span 2;
+        grid-column-start: span 2;
+    }
+
+    .GaleiaItem:nth-child(7) {
+        grid-row-start: span 2;
+        grid-column-start: span 1;
+    }
+
+    .GaleiaItem:nth-child(9) {
+        grid-row-start: span 2;
+        grid-column-start: span 2   ;
+    }
+
+}
     
-}
-
-.NosotrosMision {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    grid-area: NosotrosMision;
-    text-align: center;
-    padding: 20px;
-}
-
-.NosotrosImagen {
-    grid-area: NosotrosImagen;
-    text-align: center;
-    padding: 20px;
-}
-
-.NosotrosImagen img {
-    border-radius: 10px;
-}
-
-.NosotrosTitulos {
-    padding: 15px;
-    margin: 20px;
-    font-size:xx-large;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
-/* #### Medias Querys #### */
-
-
-    @media screen and (max-width: 768px) {
-        .navegador ul li{
-            display: none;
-        }
-    
+    /* @media screen and (max-width: 768px) {
+   
         .navegador div {
             display: flex;
             justify-content: center;
@@ -398,9 +407,15 @@ h2 {
         h1 { 
             font-size:1,5rem;
         }
-    }
 
-/* ### Transformaciones #### */
+        .Formulario {
+            width: 100%;
+        }
+    } */
+
+
+/* ###### SECCION TRANSFORMACIONES ###### */
+
 
 @keyframes Expandir {
     0% {

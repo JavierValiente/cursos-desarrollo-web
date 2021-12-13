@@ -1,146 +1,193 @@
+</html>
+
 <!DOCTYPE html>
 <html lang="en">
-<head class=" index">
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- link para Bootstrap -->
 
-    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-5.1.3-dist/css/bootstrap.css">
 
     <!--link para css-->
+
     <link rel="stylesheet" href="css/estilos.css">
 
     <title>Transporte Transmeta</title>
-    <link rel="shortcut icon" href="/Imagenes" type="image/x-icon">
+
 </head>
 
-<body class="bodyindex">
-    
-    <header> 
-        <nav class="navegador">   
-            <div>
-                <img src="Imagenes/Logo.png" alt="Logo" class="logo">
-            </div>
-            <ul>
-                <li>
-                    <a href="#">Inicio</a>
-                </li>
-                <li>
-                    <a href="paginas/servicios.html">Servicios</a>
-                <li>
-                    <a href="paginas/galeria.html">Galeria</a>
-                </li>
-                <li>
-                    <a href="paginas/contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="paginas/nosotros.html">Nosotros</a>
-                </li>
-            </ul>
-        </nav>
+<body>
 
-        <div class="logored">
-            <img src="Imagenes/LogoWS.png" alt="Logo" class="logo">
-        </div>
-    
+    <!-- #### SECCION NAVEGADOR #### -->
+
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class=" navegador container-fluid">
+                <div>
+                    <a href="#">
+                        <img src="Imagenes/Logo.png" alt="" >
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item m-3">
+                            <a class="nav-link" href="paginas/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a class="nav-link" href="paginas/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a class="nav-link" href="paginas/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a class="nav-link" href="paginas/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a class="inicio nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
-    <h1>Transporte de Cargas Refrigeradas</h1>
-    <section>
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="Imagenes/imagen-inicio1.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="Imagenes/imagen-inicio2.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="Imagenes/imagen-inicio3.jpeg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </section>
+    <main>
 
-    <main class="CuerpoIndex">
+        <!-- #### SECCION CARROUSEL #### -->
 
-        <!-- <section class="TituluIndex">
-            <div class="ImagenIndex">
-                <img src="Imagenes/imagen-inicio.jpeg" alt="Logo" class="logo-transmeta">
+        <section>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="Imagenes/imagen-inicio1.jpeg" class="my-5 d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="textoCarrousel text-center my-5 fs-1">Transporte Transmeta</h1>
+                            <p class="fs-3 my-4">Una empresa pensada para crecer junto a vos</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagenes/imagen-inicio2.jpg" class="my-5 d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fs-3 my-5">Adaptandonos a tus necesidades</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Imagenes/imagen-inicio3.jpg" class="my-5 d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 class="fs-3 my-5">Transporte con Carretones</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section> -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+            </div>
+        </section>
 
-        <aside class="Publicidad">
-            <div class="TextoIndex">
-                <p>Somos una Pyme de logafafafística y transporte de alimentos refrigerados y congelados y transporte en carretones
-                </p>
-            </div>    
-        </aside>
-    
+    <!-- #### SECCION EQUIPO #### -->
+
+        <section class="TextoImagenInicio">
+            <h2 class="text-center my-3">Expertos en Logistica en Frio y translado con carretones</h2>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-xxl-9 col-lg-7 col-md-6 col-sm-12 align-self-center">
+                        <p class="TextoImagenInicioTexto text-center">Somos una empresa con mas de 10 años de
+                            experiencia atendida por sus
+                            dueños</p>
+                        <p class="TextoImagenInicioTexto text-center">Nos enfocamos principalmente en adaptar
+                            procesos a medida del cliente
+                            con el fin de satisfacer las necesidades de los consumidores del mismo</p>
+
+                    </div>
+                    <div class="imagen col d-flex justify-content-center">
+                        <img src="Imagenes/FotoEquipo.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- #### SECCION CLIENTES #### -->
+
+        <section class="SeccionClientes">
+
+            <H2 class="TituloSeccionClientes text-center my-2 fs-3">Nuestros Clientes</h2>
+
+            <div id="carouselExampleSlidesOnly" class="ContainerClientes carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner ContainerClientes">
+                    <div class="carousel-item active">
+                        <div class="clientes1">
+                        <img src="Imagenes/Clientes/Cliente 1.png" alt="Camara">
+
+                        <img src="Imagenes/Clientes/Cliente 2.png" alt="Camara">
+
+                        <img src="Imagenes/Clientes/Cliente 3.png" alt="Camara">
+
+                        <img src="Imagenes/Clientes/Cliente 4.png" alt="Camara">
+                        </div>
+                    </div>
+        
+                    <div class="carousel-item">
+                        <div class="clientes2">
+                        <img src="Imagenes/Clientes/Cliente 5.png" alt="Camara">
+
+                        <img src="Imagenes/Clientes/Cliente 7.png" alt="Camara">
+
+                        <img src="Imagenes/Clientes/Cliente 6.png" alt="Camara">
+                        </div>
+                    </div>
+                   
+                    <div class="carousel-item">
+                        <div class="clientes3">
+                        <img src="Imagenes/Clientes/Cliente 8.png" alt="Camara">
+
+                        <img src="Imagenes/Clientes/Cliente 9.png" alt="Camara">
+
+                        <img src="Imagenes/Clientes/Cliente 10.png" alt="Camara">
+
+                        <img src="Imagenes/Clientes/Cliente 11.png" alt="Camara">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <!-- #### SECCION LOGO REDES #### -->
+
+        <section>
+            <div class="logored">
+                <img src="Imagenes/LogoWS.png" alt="Logo" class="logo">
+            </div>
+        </section>
+
+        </section>
     </main>
 
-        <div class="ContainerClientes">
-
-            <h3 class="TituloClientes">Nuestros Clientes:</h3>
-            
-            <div class="clientes1">
-                <div class="containerimagenesclientes">
-                    <img src="Imagenes/Clientes/Cliente 1.png" alt="Camara">
-                </div>
-                <div class="containerimagenesclientes">
-                    <img src="Imagenes/Clientes/Cliente 2.png" alt="Camara">
-                </div>
-                <div class="containerimagenesclientes">
-                    <img src="Imagenes/Clientes/Cliente 3.png" alt="Camara">
-                </div> 
-                <div class="containerimagenesclientes">
-                    <img src="Imagenes/Clientes/Cliente 4.png" alt="Camara">
-                </div> 
-            </div>
-
-            <div class="clientes2">
-                <div class="containerimagenesclientes">
-                    <img src="Imagenes/Clientes/Cliente 5.png" alt="Camara">
-                </div> 
-                <div class="containerimagenesclientes">
-                    <img src="Imagenes/Clientes/Cliente 7.png" alt="Camara">
-                </div> 
-                <div class="containerimagenesclientes">
-                    <img src="Imagenes/Clientes/Cliente 6.png" alt="Camara">
-                </div>    
-            </div>
-            
-            <div class="clientes3">
-                <div class="containerimagenesclientes2">
-                    <img src="Imagenes/Clientes/Cliente 8.png" alt="Camara">
-                </div>  
-                <div class="containerimagenesclientes">
-                    <img src="Imagenes/Clientes/Cliente 9.png" alt="Camara">
-                </div>  
-                <div class="containerimagenesclientes2">
-                    <img src="Imagenes/Clientes/Cliente 10.png" alt="Camara">
-                </div>  
-                <div class="containerimagenesclientes2">
-                    <img src="Imagenes/Clientes/Cliente 11.png" alt="Camara">
-                </div>  
-            </div>
-        </div>
-      
+    <!-- #### SECCION PIE DE PAGINA #### -->
 
     <footer class="container-pie">
         <div class="pie">
@@ -149,9 +196,8 @@
     </footer>
 
     <!-- Link JS Bootstrap -->
+    <script src="bootstrap-5.1.3-dist/js/bootstrap.js"></script>
 
-    <script src="/bootstrap/js/bootstrap.js"></script>
-
-    </body>
+</body>
 
 </html>

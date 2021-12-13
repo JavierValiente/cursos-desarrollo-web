@@ -1,79 +1,129 @@
+<html>
+
+</html>
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="shortcut icon" href="/Imagenes/Logo.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- link para Bootstrap -->
+
+    <link rel="stylesheet" href="../bootstrap-5.1.3-dist/css/bootstrap.css">
+
+    <!--link para css-->
+
     <link rel="stylesheet" href="../css/estilos.css">
+
     <title>Transporte Transmeta</title>
+
 </head>
 
+
 <body>
-    
-    <header>
-        <nav class="navegador">   
-            <div>
-                <img src="../Imagenes/Logo.png" alt="Logo" class="logo">
+
+    <!-- #### SECCION NAVEGADOR #### -->
+
+    <header class="EncabezadoPaginas fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="navegador container-fluid">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="../Imagenes/Logo.png" alt="">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item m-3">
+                            <a class="nav-link" href="galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a class="nav-link" href="contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item m-3">
+                            <a class="inicio nav-link" href="../index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="servicios.html">Servicios</a>
-                <li>
-                    <a href="galeria.html">Galeria</a>
-                </li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-                <li>    
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-            </ul>
-
         </nav>
 
-        <div class="logored">
-            <img src="../Imagenes/LogoWS.png" alt="Logo" class="logo">
+        <div>
+            <h1 class="TituloSecciones">Servicios</h1>
         </div>
-    
+
     </header>
 
-    <!-- <div class="ServiciosPrincipal"> -->
+    <div class="logored">
+        <img src="../Imagenes/LogoWS.png" alt="Logo" class="logo">
+    </div>
 
-    <h1>Servicios</h1>
+    <!-- ###### SECCION SERVICIOS ###### -->
 
-    <main class="ContainerServicios">
-
-        <h2>Cargas Refrigeradas</h2>        
-
-        <div class="Descripcion">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum fuga dolorum deleniti! Explicabo unde rerum odio expedita maiores laudantium, optio delectus? Consequatur unde in labore, earum fuga delectus animi consectetur molestiae eaque exercitationem ipsum nesciunt cum, maxime officiis deleniti explicabo nulla ipsa quidem velit quibusdam quaerat quo dolor nobis nemo? Excepturi, praesentium ullam. Veniam labore et repellat blanditiis, nesciunt eaque natus id expedita! Facilis error maxime inventore reiciendis, quod esse ipsum sint corrupti debitis possimus iusto dolores enim voluptas rerum eos alias sit id libero nesciunt iure aliquid amet dolore. Eius illo tempora optio a. Aspernatur explicabo aliquam numquam nihil.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi hic nam consectetur deleniti esse fugiat facere neque consequuntur expedita, cupiditate a mollitia quos delectus tempora, sit illum, amet nobis..</p>
-        </div>
-
-        <aside> 
-            <div class="imagenes">
-                <img src="../Imagenes/Lavadero.png" alt="">
+    <section class="ServiciosCards my-5">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+                <div class="col my-3 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div>
+                            <h3 class="TitulosServicios1">Logistica</h3>
+                        </div>
+                        <div class="ImagenServicios">
+                            <img src="../Imagenes/Servicios/Servicios1.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text"> Almacenamiento a -18 grados, Armado de pedidos, Repartos, Carga y
+                                descarga, Control de stock, Armado de hoja de ruta, Entregamos pedidos a consumidores
+                                finales en nuestro deposito.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-3 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div>
+                            <h3 class="TitulosServicios">Transporte con cadena de frio</h3>
+                        </div>
+                        <div class="ImagenServicios">
+                            <img src="../Imagenes/Servicios/Servicios2.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p>Tomamos trabajos desde 1 entrega a repartos fijos diarios, semanales o eventuales. Si
+                                tenes pocas entregas en zona norte o capital podemos combinarlas con otros repartos
+                                ubicándolas en el vehículo con la temperatura necesaria para tu mercadería y solo pagas
+                                por esa entrega.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col my-3 d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div>
+                            <h3 class="TitulosServicios">Transporte con Carretones</h3>
+                        </div>
+                        <div class="ImagenServicios">
+                            <img src="../Imagenes/Servicios/Servicios3.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Capacidad hasta 24 toneladas. Mas de 40 años en el rubro viajando por
+                                todo el país. Cargas generales, maquinaria agrícola y vial</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </aside>
-        
-        <h2>Camara de Frio</h2>
-    
-        <div class="Descripcion">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum fuga dolorum deleniti! Explicabo unde rerum odio expedita maiores laudantium, optio delectus? Consequatur unde in labore, earum fuga delectus animi consectetur molestiae eaque exercitationem ipsum nesciunt cum, maxime officiis deleniti explicabo nulla ipsa quidem velit quibusdam quaerat quo dolor nobis nemo? Excepturi, praesentium ullam. Veniam labore et repellat blanditiis, nesciunt eaque natus id expedita! Facilis error maxime inventore reiciendis, quod esse ipsum sint corrupti debitis possimus iusto dolores enim voluptas rerum eos alias sit id libero nesciunt iure aliquid amet dolore. Eius illo tempora optio a. Aspernatur explicabo aliquam numquam nihil.Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur eligendi hic nam consectetur deleniti esse fugiat facere neque consequuntur expedita, cupiditate a mollitia quos delectus tempora, sit illum, amet nobis..</p>
         </div>
-    
-        <aside> 
-            <div class="imagenes">
-                <img src="../Imagenes/Lavadero.png" alt="">
-            </div>
-        </aside>
-    
-    </main>
- 
+    </section>
+
+    <!-- #### SECCION PIE DE PAGINA #### -->
+
     <div class="volverainicio">
         <a href="../index.html">Volver al Inicio</a>
     </div>
@@ -83,6 +133,8 @@
             <a>Sitio desarrollado por: Javier Valiente</a>
         </div>
     </footer>
+    <!-- Link JS Bootstrap -->
+    <script src="../bootstrap-5.1.3-dist/js/bootstrap.js"></script>
 
 </body>
 
