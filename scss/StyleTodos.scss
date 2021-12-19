@@ -1,0 +1,74 @@
+
+/* ######## SECCION CSS PARA TODOS LOS HTML ######## */
+
+.index { 
+    margin: 10px;
+}
+
+.navegador ul li:hover {
+    transform: scale(1.2);
+}
+
+.TituloSecciones {
+    background-color: $color-fondo;
+    color: $color-letra;
+    text-align: center;
+}
+
+.logored img{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    width: 70px;
+    animation-name:ExpandirLogo;
+    animation-duration: 3.5s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.inicio {
+    background-color:#eeeeee;
+}
+
+/* ######## SECCION NAVEGADOR ######## */
+
+.navegador {
+    background-color:#fff !important;
+}
+
+.TextoImagenInicioTexto {
+    padding: 20px !important;
+    font-size: x-large;
+}
+
+/* ###### PIE DE PAGINA ###### */
+
+.container-pie {
+    text-align:right;
+    background-color:silver;
+    color: $color-letra;
+    width: 100%;
+    div { 
+        font-size: xx-small;
+        padding: 2px;
+    }
+}
+
+
+
+.volverainicio {
+    margin: 10px;
+    a {
+        font-family: $familia-letra;
+        background-color: $color-fondo;
+        padding: 5px;
+        margin: 5px;
+        color: $color-letra;
+        width: 8%;
+        text-align: center;
+        border-radius: 4px;
+    }
+}
+
+

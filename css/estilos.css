@@ -42,15 +42,6 @@
     background-color:#fff !important;
 }
 
-/* ######## SECCION INDEX ######## */
-
-.TextoImagenInicio {
-    background-color:#2B579F;
-    padding: 20px;
-    margin: 20px;
-    color: white;
-}
-
 .TextoImagenInicioTexto {
     padding: 20px !important;
     font-size: x-large;
@@ -86,6 +77,13 @@
 }
 
 /* ###### SECCION INDEX ###### */
+
+.TextoImagenInicio {
+    background-color:#2B579F;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
 
 .SeccionClientes {
     border:solid #2B579f 2px;

@@ -1,0 +1,55 @@
+.Formulario {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    padding: 30px 15px 150px 15px;
+    overflow: hidden;
+
+    .FomularioCuerpo {
+        padding: 30px;
+        margin: 20px;
+        margin-top: 50px;
+        font-family: $familia-letra;
+        background-color: $color-fondo;
+        color: $color-letra;
+        .control {
+            font-family: $familia-letra;
+            font-size: 15px;
+            width: 100%;
+            border-radius: 4px;
+            margin: 5px;
+            padding: 5px;
+            border: 30px;
+        }
+        
+        .informacion {
+            font-size: 15px;
+            text-align: center;
+            padding: 15px;
+            border: 10px;
+        }
+        
+        .botones {
+            font-family: $familia-letra;
+            background-color: $color-letra;
+            padding: 5px;
+            margin: 5px;
+            color: $color-fondo;
+            text-align: center;
+            border-radius: 5px;
+            border: none;
+            width: 100%;
+            font-size: 15px;
+        }
+    }
+    .FomularioCuerpo h3 {
+        font-size: 35px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+}
+
+
+
+
+
