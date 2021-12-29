@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     text-decoration: none;
@@ -8,7 +8,7 @@
 
 .index { 
     margin: 10px;
-}
+}       
 
 .navegador ul li:hover {
     transform: scale(1.2);
@@ -435,4 +435,4 @@ card-img-top {
     50% {
         transform: scale(1.2);
     } 
-}
+} */

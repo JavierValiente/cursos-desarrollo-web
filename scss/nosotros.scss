@@ -1,0 +1,40 @@
+
+/* ###### SECCION NOSOTROS ###### */
+
+.NosotrosAcordion {
+    margin: 10px 50px 30px 60px;
+}
+
+.AcordionNombre {
+    background-color: #2B579F;
+    color: white;
+}
+
+.accordion-item {
+    text-align: center;
+}
+
+.listaAcordion {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    color: black;
+}
+
+.NosotrosHistoria {
+    border: solid #2B579F;
+    margin: 150px 50px 20px 60px;
+}
+
+.NosotrosTituloHistoria {
+    padding: 10px;
+}
+
+.NosotrosHistoria {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-area:NosotrosHistoria ;
+    text-align: center;
+    align-self: center;
+    padding: 20px;
+}

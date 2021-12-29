@@ -1,0 +1,45 @@
+/* ###### SECCION INDEX ###### */
+
+.TextoImagenInicio {
+    background-color:#2B579F;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.SeccionClientes {
+    border:solid #2B579f 2px;
+    height: 180px;
+    margin: 20px;
+}
+
+.TituloSeccionClientes {
+    border-radius: 3px;
+    background-color: #2B579f;
+    color: white;
+    margin: 20px;
+}
+
+.ContainerClientes {
+    width: 85vw;
+    margin:auto;
+}
+
+.clientes1 { 
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.clientes2 { 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+.clientes3 { 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
