@@ -55,7 +55,7 @@
   padding: 10px; }
 
 .NosotrosHistoria {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: sans-serif;
   grid-area: NosotrosHistoria;
   text-align: center;
   align-self: center;
@@ -127,10 +127,25 @@ card-img-top {
 
 /* ###### SECCION INDEX ###### */
 .TextoImagenInicio {
+  font-family: sans-serif;
   background-color: #2B579F;
+  border-radius: 5px;
   padding: 20px;
   margin: 20px;
   color: white; }
+
+.TextoImagenInicioTexto {
+  font-size: 30px;
+  font-family: sans-serif;
+  color: #ffffff;
+  animation-name: imagenInicio;
+  animation-duration: 1s; }
+
+@keyframes imagenInicio {
+  50% {
+    margin-top: 10px; }
+  100% {
+    margin-top: 0px; } }
 
 .SeccionClientes {
   display: none; }
@@ -246,11 +261,17 @@ card-img-top {
   position: fixed;
   right: 10px;
   bottom: 10px;
-  width: 70px;
+  width: 65px;
   animation-name: ExpandirLogo;
-  animation-duration: 3.5s;
+  animation-duration: 1s;
   animation-delay: 1s;
   animation-timing-function: ease !important; }
+
+@keyframes ExpandirLogo {
+  0% {
+    width: 65px; }
+  50% {
+    width: 75px; } }
 
 .inicio {
   background-color: #eeeeee; }

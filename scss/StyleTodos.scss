@@ -25,11 +25,16 @@
     position: fixed;
     right: 10px;
     bottom: 10px;
-    width: 70px;
+    width: 65px;
     animation-name:ExpandirLogo;
-    animation-duration: 3.5s;
+    animation-duration: 1s;
     animation-delay: 1s;
     animation-timing-function: ease !important;
+
+    @keyframes ExpandirLogo {
+        0%{ width: 65px;}
+        50% {width: 75px;}
+    }
 }
 
 .inicio {
