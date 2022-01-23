@@ -7,24 +7,18 @@
     padding: 20px;
     margin: 20px;
     color: white;
+    .TextoImagenInicioTexto {
+        font-size: 30px;
+        font-family: $familia-letra;
+        color: $color-letra;
+        animation-name:imagenInicio;
+        animation-duration: 1s;
+        @keyframes imagenInicio {
+            50% {margin-top: 10px;}
+            100%{margin-top: 0px;}
+        }
+    }
 }
-
-.TextoImagenInicioTexto {
-    font-size: 30px;
-    font-family: $familia-letra;
-    color: $color-letra;
-    animation-name:imagenInicio;
-    animation-duration: 1s;
-    
-}
-
-@keyframes imagenInicio {
-    50% {margin-top: 10px;}
-    100%{margin-top: 0px;}
-}
-    
-
-
 
 .SeccionClientes {
     display: none;

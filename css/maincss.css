@@ -5,13 +5,17 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: 150px;
-    padding: 20px;
+    padding: 30px;
     grid-gap: 10px; }
+
+.GaleriaImagen:hover {
+  transform: scale(1.03); }
 
 .GaleriaImagen {
   width: 100%;
   height: 100%;
-  object-fit: cover; }
+  object-fit: cover;
+  transition: all 300ms; }
 
 .GaleiaItem:nth-child(1) {
   grid-column-start: span 3; }
@@ -133,13 +137,12 @@ card-img-top {
   padding: 20px;
   margin: 20px;
   color: white; }
-
-.TextoImagenInicioTexto {
-  font-size: 30px;
-  font-family: sans-serif;
-  color: #ffffff;
-  animation-name: imagenInicio;
-  animation-duration: 1s; }
+  .TextoImagenInicio .TextoImagenInicioTexto {
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #ffffff;
+    animation-name: imagenInicio;
+    animation-duration: 1s; }
 
 @keyframes imagenInicio {
   50% {
