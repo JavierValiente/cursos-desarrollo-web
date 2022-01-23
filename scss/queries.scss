@@ -2,7 +2,54 @@
 
 @media (min-width: 1024px) {
 
-    /* ####MEDIAS GALERIA### */
+    /* ####MEDIAS INDEX### */
+
+    .Texto2 {
+        display: block;
+    }
+
+    .SeccionClientes {
+        display: block;
+        border:solid #2B579f 2px;
+        height: 180px;
+        margin: 20px;
+        .TituloSeccionClientes {
+            display: block;
+            border-radius: 3px;
+            background-color: #2B579f;
+            color: white;
+            margin: 20px;
+        }
+        .ContainerClientes {
+            display: block;
+            width: 85vw;
+            margin:auto;
+            .clientes1 { 
+                display: block;
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            
+            .clientes2 { 
+                display: block;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center; 
+            }
+            
+            .clientes3 { 
+                display: block;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+        }   
+    
+    }
+
+       /* ####MEDIAS GALERIA### */
 
     .GaleiaItem:nth-child(1) {
         grid-column-start: span 3;
@@ -74,3 +121,4 @@
     }
 
 }
+
