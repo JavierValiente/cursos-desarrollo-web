@@ -199,6 +199,7 @@ card-img-top {
         display: flex;
         justify-content: space-around;
         align-items: center; }
+  /* ####MEDIAS NAV### */
   .navegador li:hover {
     transform: scale(1.1); }
   /* ####MEDIAS GALERIA### */
