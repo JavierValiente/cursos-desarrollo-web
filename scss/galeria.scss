@@ -12,15 +12,15 @@
     }
 }
 
-.GaleriaImagen:hover {
-    transform: scale(1.03);
-}
-
 .GaleriaImagen {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: all 300ms;
+}
+
+.GaleriaImagen:hover {
+    transform: scale(1.03);
 }
 
 .GaleiaItem:nth-child(1) {

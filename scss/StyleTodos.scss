@@ -10,14 +10,15 @@
     margin: 10px;
 }
 
-.navegador ul li:hover {
-    transform: scale(1.2);
-}
-
 .TituloSecciones {
     background-color: $color-fondo;
     color: $color-letra;
     text-align: center;
+    animation-name:titulosSeccion;
+    animation-duration: 1s;
+        @keyframes titulosSeccion {
+            50% {margin-top: 5px;}
+            100%{margin-top: 0px;}}
 }
 
 .logored img{
@@ -45,6 +46,11 @@
 
 .navegador {
     background-color:#fff !important;
+    li{
+        margin: 0 !important;
+        font-family: $familia-letra;
+    }
+    
 }
 
 .TextoImagenInicioTexto {
