@@ -1,0 +1,156 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin:0;
+    font-family: 'Inconsolata', monospace;
+}
+img {
+    display:none;
+    width: 100%;
+}
+
+.container-carrousel {
+    padding: 15px 0;
+}
+
+.main-title {
+    text-align: center;
+}
+
+.main-header .container { 
+    padding: 0 20px
+}
+
+.main-heder__title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 10px 0;
+    color: #615f5f;
+}
+.main--nav {
+    display: none;
+}
+.main-header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items:center
+}
+
+.main-heder__txt {
+    margin: 0;
+}
+.icon-menu {
+    font-size: 1.5em;
+    border: solid 1px #615f5f;
+    display: block;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.main-header__btn {
+    color: black;
+    border: solid 3px #ccc;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main-header__input {
+    border: solid 3px #ccc;
+    display: block;
+    padding: 5px;
+}
+
+.main {
+    padding: 20px;
+}
+
+/* ESTILOS DE PRODUCTOS */
+
+.container-productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.product {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+/* .product :before {
+    content: "New";
+    background: #ff4e00;
+    padding: 10px;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    transform: rotate(-90deg);
+    color: white;
+} */
+
+.product_img {
+    width: 100%;
+    height: 125px;
+    object-fit: cover;
+    border: solid 3px #ccc;
+}
+
+.product_title {
+    text-align: center;
+}
+
+.producto__price {
+    color: #ff4e00;
+    font-weight: bold;
+}
+
+.product__icon {
+    display: block;
+    margin: auto;
+    margin: 10px 0;
+}
+
+.containet-editor {
+    margin-top: 50px;
+}
+
+.editor__item {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.editor.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover ;
+}
+
+.editor__circle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    position: absolute;
+    bottom: -190px;
+    right: -150px;
+    color: white;
+    padding: 10px 30px 100px 10px;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.editor__item:hover .editor__circle {
+    transform: scale(1.2);
+    bottom: -115px;
+    right: -40px;
+}
